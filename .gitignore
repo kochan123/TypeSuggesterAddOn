@@ -1,0 +1,6 @@
+releases/*.zip
+builds/
+*.swp
+*.bak
+.DS_Store
+*.tmp

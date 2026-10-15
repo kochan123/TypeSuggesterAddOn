@@ -1,0 +1,9 @@
+Current Version: 1.0.0
+Released: 2026-10-15
+Status: Live on CurseForge (awaiting moderator approval)
+
+Next Version: 1.0.1
+Target: Q4 2026
+Planned: SavedVariables implementation
+
+Previous: None (first release)

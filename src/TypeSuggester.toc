@@ -1,0 +1,25 @@
+## Interface: 16001
+## Title: TypeSuggester - Real-Time Word Suggestions
+## Notes: Real-time word suggestions for chat, powered by SCOWL dictionary
+## Version: 1.0.0
+## Author: Kaloyan
+## SavedVariables: TypeSuggesterDB
+
+# Core algorithm modules
+distance.lua
+dictionary-scowl.lua
+
+# Prefix indexing module
+# Provides O(1) prefix-based lookups for 70K words
+indexer.lua
+
+# Suggestion engine
+# Uses caching and early exit for performance
+suggester.lua
+
+# UI and event handling
+ui.lua
+events.lua
+
+# Main controller
+core.lua
